@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "description": "dyxizm portfolio",
+  "main": "static/index.html",
+  "authors": [
+    "dyxizm"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "portfolio",
+    "webpack",
+    "flexbox"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "minimal-devices": "^0.5.6"
+  }
+}
