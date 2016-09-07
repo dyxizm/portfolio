@@ -108,9 +108,10 @@
 }
 
 .md-iphone-5 {
-  @extend %center--horizontal;
-  font-size: 12.5px;
-  top: 2rem;
+  position: absolute;
+  left: 0;
+  font-size: 0.5rem;
+  top: 0;
 
   .md-screen {
     background-color: transparent;
@@ -135,17 +136,10 @@
 }
 
 .md-imac {
-  @extend %center--absolute;
+  margin: auto;
+  position: absolute;
+  top:1.5rem;
+  right: 2rem;
   font-size: 7px;
 }
 
-.project-logo--sassy-inputs {
-  white-space: nowrap;
-  color: coral;
-  font-family: 'Pacifico';
-  font-size: 4rem;
-
-  @include desktop {
-    font-size: 5rem;
-  };
-}
